@@ -1,0 +1,35 @@
+{
+  "name": "xcasset-extractor",
+  "version": "1.0.0",
+  "description": "Extracts images from Images.xcassets and optimizes them and names them sanely",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentjs/xcasset-extractor.git"
+  },
+  "keywords": [
+    "Images.xcassets",
+    "assets",
+    "images",
+    "optipng",
+    "Xcode"
+  ],
+  "author": "exponent.team@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exponentjs/xcasset-extractor/issues"
+  },
+  "homepage": "https://github.com/exponentjs/xcasset-extractor#readme",
+  "dependencies": {
+    "@exponent/json-file": "^3.0.0",
+    "@exponent/spawn-async": "^1.2.3",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.4.3",
+    "babel-preset-stage-1": "^6.3.13",
+    "babel-runtime": "^6.3.19",
+    "fs-extra": "^0.26.4"
+  }
+}
